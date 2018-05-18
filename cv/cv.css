@@ -2,6 +2,7 @@
 body {
 	
 	background-image: url("fond.jpg");
+	background-size: 100%;
 	
 }
 
@@ -24,18 +25,43 @@ body {
 
 
 .cv {
-	border-style: groove;
-	padding-left: 30px;
-	background-image: url("fond2.jpg");
+	border-style: DOUBLE;
+	border-color: 89725B;
+	border-radius: 20px;
+	border-width: 10px;
 	
+	padding-left: 30px;
+	
+	
+	
+	/* background-image: url("fond2.jpg"); */
+	background: linear-gradient(to bottom, #ABC8E2, #ebf8e1, #375D81);
+	background-size: 100%;
+	
+    position: relative;
+	bottom: 20px;
  }
 
 ul, p {     
     border-left-style: solid;
-	border-color: DarkSlateGray ;
+	border-color: 89725B;
 	border-width: 5px;
 
 }
+
+.conteiner {
+	display:inline-table;
+	width: 100%;
+	}
+
+.cat {
+	display:table-cell;
+	width: 20%;
+	}
+.formation {
+	display:table-cell;
+	width: 80%
+	}
 
 
 
